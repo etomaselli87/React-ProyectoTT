@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Ágata",
+    "description": "Piedra de equilibrio emocional. Aporta estabilidad física, seguridad y fuerza interior en momentos de desafío.",
+    "price": 12500,
+    "image": "/img/1-agata.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Ámbar",
+    "description": "Ámbar: Resina protectora. Transmuta energías negativas, favorece la vitalidad corporal y alivia el estrés acumulado.",
+    "price": 12500,
+    "image": "/img/2-ambar.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Lapislázuli",
+    "description": "Gema de sabiduría. Estimula el intelecto, promueve la claridad mental y facilita la comunicación auténtica.",
+    "price": 28900,
+    "image": "/img/3-lapizlazuli.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Cuarzo Rosa",
+    "description": "Cristal del amor incondicional. Sana el corazón, fomenta la autoestima y atrae armonía en relaciones.",
+    "price": 35000,
+    "image": "/img/4-cuarzorosa.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Amatista",
+    "description": "Piedra de transmutación. Calma la mente, eleva la espiritualidad y protege contra energías externas densas.",
+    "price": 42000,
+    "image": "/img/5-amatista.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Rubí",
+    "description": "Gema de pasión. Estimula la energía vital, fortalece la confianza y promueve el éxito personal.",
+    "price": 45500,
+    "image": "/img/6-rubi.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Malaquita",
+    "description": "Piedra de transformación. Absorbe contaminantes, rompe vínculos no deseados y estimula el crecimiento espiritual.",
+    "price": 45500,
+    "image": "/img/7-malaquita.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Esmeralda",
+    "description": "Cristal de abundancia. Inspira equilibrio, paciencia y crecimiento, fortaleciendo la unidad en las relaciones.",
+    "price": 45500,
+    "image": "/img/8-esmeralda.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Jade",
+    "description": "Piedra de prosperidad. Atrae buena fortuna, promueve la pureza y favorece la sanación corporal profunda.",
+    "price": 45500,
+    "image": "/img/9-jade.jpg"
+  },
+    {
+    "id": 10,
+    "name": "Zafiro",
+    "description": "Gema del orden. Enfoca la mente, aporta disciplina mental y atrae bendiciones de todo tipo.",
+    "price": 45500,
+    "image": "/img/10-zafiro.jpg"
+  }
+]
