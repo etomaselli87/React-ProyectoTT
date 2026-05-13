@@ -4,7 +4,7 @@ import "./Nav.css";
 export const Nav = () => {
     return (
         <nav>
-            <ul className='nav-list'>
+            <ul className='nav-list-nav'>
                 <li>
                     <Link to={"/"}>Home</Link>
                 </li>
