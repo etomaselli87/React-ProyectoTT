@@ -1,5 +1,75 @@
+/* footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
+
 footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: #89bd80;
+  background: linear-gradient(180deg,rgba(137, 189, 128, 1) 0%, rgba(16, 37, 64, 1) 100%);
+  color: #d3dbd5;
+  padding: 8px;
+  text-align: center;
+  border-top: 2px solid #333;
+}
+
+footer p {
+  margin-bottom: 12px;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-list li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease, opacity 2s ease; 
+  font-size: 20px;
+}
+
+.nav-list li:hover {
+  transform: scale(1.05);
+  opacity: 0.8;
+}
+
+/* Iconos redes sociales */
+.nav-list li:nth-child(1)::before {
+  content: "";
+  width: 44px;
+  height: 44px;
+  display: inline-block;
+  background-image: url("../../assets/logo-whatsapp.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.nav-list li:nth-child(2)::before {
+  content: "";
+  width: 44px;
+  height: 44px;
+  display: inline-block;
+  background-image: url("../../assets/logo-instagram.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .nav-list {
+    flex-direction: column;
+    gap: 12px;
+  }
 }

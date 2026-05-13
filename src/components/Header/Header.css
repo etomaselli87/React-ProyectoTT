@@ -6,7 +6,15 @@ header {
 }
 
 .logo-container {
-  display: flex;
+  text-align: center;
+  padding: auto;
+}
+
+.logo-container img,
+.logo-container span {
+  display: inline-block;
+  vertical-align: middle;
   align-items: center;
-  font-size: 2rem;
+  text-align: right;
+  font-size: 3rem;
 }

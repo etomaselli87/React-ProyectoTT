@@ -12,3 +12,16 @@
   height: 20rem;
   object-fit: cover;
 }
+
+.card h3 {
+  text-align: center;
+}
+
+.card h2 {
+  color: aqua;
+  text-align: center;
+}
+
+.card p {
+  text-align: center;
+}
