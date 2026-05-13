@@ -5,8 +5,9 @@
 }
 
 body {
-  background-color: #121212;
-  color: #eaeaea;
+  background: #152331;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #000000, #152331);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #000000, #152331); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
   font-family: system-ui, sans-serif;
 }
 
@@ -23,23 +24,39 @@ main {
   margin: auto;
 }
 
+section {
+  text-decoration: none;
+  color: rgb(114, 179, 235);
+  font-family: "Encode Sans Condensed", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
 h1 {
+  text-decoration: none;
   text-align: center;
+  font-family: "Encode Sans Condensed", sans-serif;
+  font-weight: 600;
+  font-style: normal;;
 }
 
 .primary {
+  text-decoration: none;
   color: #eaeaea;
 }
 
 .secondary {
+  text-decoration: none;
   color: #b3b3b3;
 }
 
 .disabled {
+  text-decoration: none;
   color: #7a7a7a;
 }
 
 .btn {
+  text-decoration: none;
   background-color: #3b82f6;
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
@@ -47,13 +64,16 @@ h1 {
   cursor: pointer;
 }
 .btn:hover {
+  text-decoration: none;
   background-color: #2563eb;
 }
 
 .btn:disabled {
+  text-decoration: none;
   background-color: #7a7a7a;
 }
 
 ul {
+  text-decoration: none;
   list-style: none;
 }
