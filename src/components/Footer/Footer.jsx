@@ -3,7 +3,7 @@ import "./Footer.css";
 export const Footer = () => {
   return (
     <footer>
-      <p>2026 © Matrika - Sitio desarrollado por Ema T.</p>
+      <p>2026 © Matrika - Sitio desarrollado por Emmanuel Tomaselli</p>
       <nav>
         <ul className="nav-list">
           <li>
