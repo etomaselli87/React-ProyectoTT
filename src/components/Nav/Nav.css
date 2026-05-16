@@ -7,6 +7,9 @@
 }
 .nav-list-nav li {
   text-decoration: none;
+  font-family: "Encode Sans Condensed", sans-serif;
+  font-weight: 200;
+  font-style: normal;
   color: #e5e6f2;     
   font-size: 2rem;
   margin: 0.5rem;
