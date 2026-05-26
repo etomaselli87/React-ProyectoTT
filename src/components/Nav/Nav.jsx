@@ -15,8 +15,8 @@ export const Nav = () => {
                 </li>
                 <li>
                     <Link to={"/carrito"}>
-                        Carrito- 
-                        {totalItems > 0 && <span className="incart">{ totalItems}</span>}
+                        Carrito 
+                        {totalItems > 0 && <span className="incart">{totalItems}</span>}
                     </Link>
                 </li>
             </ul>
