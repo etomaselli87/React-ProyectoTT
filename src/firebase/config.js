@@ -22,7 +22,7 @@ const app = initializeApp(firebaseConfig);
 
 
 /* -------------------------------------------------------------------------- */
-/*              CREAR Y EXPORTAR VARIABLES PARA GET DE FILESTORE              */
+/*              CREAR Y EXPORTAR VARIABLES PARA "GET" DE FILESTORE              */
 /* -------------------------------------------------------------------------- */
 
 const db = getFirestore(app);
