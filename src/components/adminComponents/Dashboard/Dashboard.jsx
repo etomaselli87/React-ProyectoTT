@@ -1,6 +1,4 @@
-/* -------------------------------------------------------------------------- */
-/*         DASHBOARD HTML PAGINA DE INICIO ADMINISTRADOR ABM PRODUCTOS        */
-/* -------------------------------------------------------------------------- */
+{/*         DASHBOARD HTML PAGINA DE INICIO ADMINISTRADOR ABM PRODUCTOS        */}
 
 import { Link, useNavigate } from "react-router-dom";
 import "./Dashboard.css";
