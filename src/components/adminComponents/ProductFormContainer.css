@@ -56,7 +56,7 @@
 .product-form input[type="number"]:focus,
 .product-form input[type="file"]:focus,
 .product-form textarea:focus {
-  border-color: #5aa3ff;
+  border-color: #ff5ae9;
   background: #353535;
 }
 
@@ -86,7 +86,7 @@
   padding: 0.6rem 1rem;
   border: none;
   border-radius: 8px;
-  background: #5aa3ff;
+  background: #fb4cf2;
   color: #0e0e0e;
   font-weight: 600;
   cursor: pointer;
@@ -97,7 +97,7 @@
 }
 
 .btn:hover {
-  background: #79b6ff;
+  background: #e981fb;
 }
 .btn:active {
   transform: translateY(1px);
