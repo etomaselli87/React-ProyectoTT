@@ -62,7 +62,7 @@ export const ProductFormContainer = () => {
       //vaciar
       setProduct({ name: "", price: "", category: "", description: "" });
       setFile(null);
-      navigate(`/success/${id}`, { replace: true });
+      navigate(`admin/products/success/${id}`, { replace: true });
     } catch (error) {
       setErrors({ general: error.message });
     } finally {
