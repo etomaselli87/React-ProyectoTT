@@ -36,7 +36,7 @@ export const ProductFormContainer = () => {
     setErrors({});
     setLoading(true);
 
-    //validar
+    //validar => evalúa si hay errores usando la funcion creada anteriormente con tipos de errores
     const newErrors = validateProduct({ ...product, file });
     if (Object.keys(newErrors).length > 0) {
       setErrors(newErrors);
@@ -62,7 +62,7 @@ export const ProductFormContainer = () => {
       //vaciar
       setProduct({ name: "", price: "", category: "", description: "" });
       setFile(null);
-      navigate(`admin/products/success/${id}`, { replace: true });
+      navigate(`/admin/success/${id}`, { replace: true });
     } catch (error) {
       setErrors({ general: error.message });
     } finally {
