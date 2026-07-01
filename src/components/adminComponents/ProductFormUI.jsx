@@ -1,3 +1,5 @@
+//COMPONENTE PRESENTACIONAL, MUESTRA ESTRUCTURA
+
 export const ProductFormUI = ({
   product,
   errors,

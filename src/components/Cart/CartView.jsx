@@ -1,3 +1,6 @@
+// COMPONENTE QUE DECIDE QUÉ TIENE QUE MOSTRAR EL CARRITO 
+// DE ACUERDO A LO QUE VENGA DEL ESTADO GLOBAL PROVIDER (CARTCONTEXT)
+
 import { Link } from "react-router-dom";
 import { useCart } from "../../context/CartContext";
 import { CartList } from "./CartList";
