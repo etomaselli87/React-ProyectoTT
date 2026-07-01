@@ -42,7 +42,7 @@ function App() {
           <Route path="dashboard" element={<Dashboard />} />
 
           <Route path="products/new" element={<ProductFormContainer />} />
-          <Route path="products/success/:id" element={<ProductSuccess />} />
+          <Route path="success/:id" element={<ProductSuccess />} />
         </Route>
       </Routes>
     </>
