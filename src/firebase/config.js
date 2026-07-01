@@ -1,3 +1,10 @@
+/* -------------------------------------------------------------------------- */
+/*           CODIGO ARCHIVO DE FILESTORE DE LA CONFIGURACION GENERAL          */
+/* -------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------- */
+/*     RECORDAR INSTALAR FIREBASE - npm i firebase y checkear dependencias    */
+/* -------------------------------------------------------------------------- */
+
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
@@ -22,7 +29,7 @@ const app = initializeApp(firebaseConfig);
 
 
 /* -------------------------------------------------------------------------- */
-/*              CREAR Y EXPORTAR VARIABLES PARA "GET" DE FILESTORE              */
+/*              CREAR Y EXPORTAR VARIABLES PARA "GET" DE FILESTORE            */
 /* -------------------------------------------------------------------------- */
 
 const db = getFirestore(app);

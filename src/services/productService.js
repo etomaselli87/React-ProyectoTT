@@ -50,13 +50,13 @@ export const getProducts = async () => {
 // Funcion que SOLO pide un dato
 export const getProductById = async (id) => {
   try {
-    // Creamos la referencia al documento
+    // Creamos la referencia al documento, referencia el producto
     const productRef = doc(db, "products", id);
 
     // Traemos el documento:
     const snapshot = await getDoc(productRef);
 
-    // Verificamos si existe
+    // Verificamos si existe, sino => vacio
     if (snapshot.exists()) {
       const product = { id: snapshot.id, ...snapshot.data() };
       console.log("Doc:", product);
